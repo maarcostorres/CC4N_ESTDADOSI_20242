@@ -1,3 +1,9 @@
+## Dados:
+- **Aluno:** Marcos Vinicius S. Torres
+- **Professor:** Gustavo Rocha
+- **Matricula:** 202305406
+- **Turma:** CC4N
+
 # Submissão do Portfólio de Estrutura de Dados I
 
 #### Passo 1: Faça o Fork do Repositório
