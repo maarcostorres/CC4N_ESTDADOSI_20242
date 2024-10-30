@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 // Função para ordenar um array usando Bubble Sort
 void bubbleSort(int arr[], int n) {
@@ -25,9 +27,20 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    // Array a ser ordenado
-    int arr[] = {10, 8, 6, 4, 2, 9, 7, 5, 4, 3, 1};
+    // Inicializa o gerador de números aleatórios
+    srand(time(0));
+
+    // Array com 50 valores inteiros aleatórios
+    int arr[50];
+    for (int i = 0; i < 50; i++) {
+        arr[i] = rand() % 100; // Gera números aleatórios entre 0 e 99
+    }
+
     int n = sizeof(arr) / sizeof(arr[0]); // Calcula o tamanho do array
+
+    // Exibe o array original
+    printf("Array original: ");
+    printArray(arr, n);
 
     // Chama a função de ordenação
     bubbleSort(arr, n);
