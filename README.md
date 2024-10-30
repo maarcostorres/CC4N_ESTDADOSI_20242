@@ -13,18 +13,18 @@
 #### Passo 2: Organize as Atividades
 As atividades serão postadas no blog da disciplina e devem ser organizadas de acordo com o cronograma abaixo:
 
-- **Atividade 1: 02/11/2024**  
+- **Atividade 1: até 02/11/2024**  
   - **Conteúdo**: Estruturas de Ordenação Simples (Bubblesort, Selection Sort, Insertion Sort).  
-  - **Valor**: 0,25 ponto por algoritmo, totalizando 0,75 ponto.
+  - **Valor**: 0,5 ponto.
 
-- **Atividade 2: 16/11/2024**  
-  - **Conteúdo**: Estruturas de Ordenação Complexas (Mergesort, Quicksort, Shell Sort).  
-  - **Valor**: 0,25 ponto por algoritmo, totalizando 0,75 ponto.
+- **Atividade 2: até 16/11/2024**  
+  - **Conteúdo**: Estruturas de Ordenação Complexas (Mergesort, Quicksort, Shell Sort, Radix Sort e Heap Sort).  
+  - **Valor**: 1,0 ponto.
 
-- **Atividade Final: 01/12/2024**  
+- **Atividade Final: até 01/12/2024**  
   - **Conteúdo**: Árvores de Busca (BST e AVL).  
-  - **Valor**: 0,75 ponto por estrutura, totalizando 1,5 ponto.
-
+  - **Valor**: 1,5 pontos.
+    
 #### Estrutura de Arquivos
 Dentro do seu repositório, crie uma pasta para cada atividade, com subpastas para cada algoritmo ou estrutura, e salve seus códigos organizadamente. Por exemplo:
 
@@ -37,7 +37,10 @@ Atividade_1/
     ├── InsertionSort/
     │     └── insertionsort.c
 
-Atividade_2/
+Atividade_2/ (Exemplo)
+    ├── Apresentação/
+    │     └── apresentacao.pptx
+    │     └── codigo.c
     ├── Mergesort/
     │     └── mergesort.c
     ├── Quicksort/
@@ -56,6 +59,8 @@ Atividade_Final/
 - **Data de Entrega**: Cada atividade deve ser submetida até a respectiva data limite. 
 - Submissões feitas **após o prazo** serão aceitas com penalidade de **0,1 ponto por dia de atraso**.
 - Certifique-se de que o repositório está sempre atualizado com o conteúdo correto e dentro do prazo.
+- Crie os comentários do seu código declarando a documentação sobre as variáveis e as movimentações realizadas.
+- Use nomes de variáveis que sejam eficientes para o entendimento do código.
 
 #### Prazo de Entrega Final
 - A última entrega, incluindo todas as atividades, deve ser feita até **02/12/2024**.
