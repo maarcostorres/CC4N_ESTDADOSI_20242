@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 // Função para ordenar um array usando Insertion Sort
 void insertionSort(int arr[], int n) {
@@ -27,11 +29,25 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {10, 8, 6, 4, 2, 9, 7, 5, 4, 3, 1};
+    // Inicializa o gerador de números aleatórios
+    srand(time(0));
+
+    // Array com 50 valores inteiros aleatórios
+    int arr[50];
+    for (int i = 0; i < 50; i++) {
+        arr[i] = rand() % 100; // Gera números aleatórios entre 0 e 99
+    }
+
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    // Exibe o array original
+    printf("Array original: ");
+    printArray(arr, n);
+
+    // Ordena o array usando Insertion Sort
     insertionSort(arr, n);
 
+    // Exibe o array ordenado
     printf("Array ordenado com Insertion Sort: ");
     printArray(arr, n);
 
